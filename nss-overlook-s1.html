@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nerd Story Shorts - Welcome to the Overlook</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				font-size: 16px;
+				line-height: 1.5;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: bold;
+				margin-top: 1.5em;
+				margin-bottom: 0.5em;
+			}
+			a {
+				color: blue;
+				text-decoration: none;
+				font-weight: bold;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			.passage {
+				display: none;
+				margin-top: 20px;
+				padding: 20px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				background-color: #f5f5f5;
+			}
+			.passage.active {
+				display: block;
+			}
+			
+			@media only screen and (max-width: 600px) {
+				body {
+					font-size: 14px;
+					padding: 10px;
+				}
+				.passage {
+					padding: 10px;
+				}
+			}
+			img {max-width: 100%; }	
+
+		    img.left { float: left; margin: 0 10px 10px 0; }
+            img.right { float: right; margin: 0 0 10px 10px; }
+		</style>
+		<script>
+			function showPassage(passageName) {
+				var passages = document.querySelectorAll(".passage");
+				for (var i = 0; i < passages.length; i++) {
+					passages[i].classList.remove("active");
+				}
+				document.querySelector("#" + passageName).classList.add("active");
+			}
+		</script>
+	</head>
+	<body onload="showPassage('Passage1')">
+		<div id="passages">
+			<div class="passage" id="Passage1">
+				<h2><center>Welcome to the Overlook</center></h2>
+				<h3><center>Season 1 - The Caretaker</center></h3>				
+				<img src="https://i.ibb.co/rvnxG3H/hotel.png"/>
+				<h4><center>...a Nuclear Nerds Story Short</center></h3>								
+				<p><center><a href="#" onclick="showPassage('Passage2')">Continue</a></center></p>
+			</div>
+			<div class="passage" id="Passage2">
+				<h2>Prologue</h2>
+				<p>A secluded hotel located in the Rocky Mountains during its history.  According to lore, it was the site of many unsavory activities, including suicides, gangland hits, and many suspicious changes of ownership, yet the hotel remained a luxurious destination known for its sumptuous grounds and spectacular mountain view. </p>
+				<p>If any place was destined for hell, this was the place.  <img src="https://i.ibb.co/fCCjqmR/image1-intro.png" width="500" height="auto" class="right">But it was not to be - the structure mostly survived the onslaught on that fateful day back in 2021.  The hotel had been closed for renovations at the time and only a few were on site.  One gentleman by the name of Lloyd ran the Lounge downstairs in the basement.  The others who allegedly survived have not been seen or heard from.</p>
+				<p>Unfortunately, Lloyd is adamant he doesn't leave the basement lounge and ballroom areas.  The few times he's mustered up the courage to try and go upstairs, strange sounds and loud noises have turned him right around.</p>
+				<p>We need to try and locate the others who may be alive elsewhere in the building or outside the grounds.</p>
+				<p>Lloyd will provide you with all the instructions at the bar.  Meet him there and good luck!</p>
+				<p><a href="#" onclick="showPassage('Passage1')">Go Back</a> | <a href="#" onclick="showPassage('Passage3')">Start</a></p>
+		
+			</div>
+			<div class="passage" id="Passage3">
+				<h2>Old Friends</h2>
+				<p>“Four hundred days of pain and anguish, surely my luck has to turn at some point.” muttered an utterly exhausted and salty female named Jessica, or Jess for short. </p>
+				<p>You see, since the beginning of the apocalypse, or death day as some survivors call it, Jess has been attempting to survive the Wastelands on her own. Ever since Denver, Colorado had fallen, Jess knew the plan was always to move into the depths of the Rocky Mountains for survival. With an old hand-me-down Army Survival Handbook her pops gave her before going to jail years ago, she knew there had to be a survival compound in those mountains somewhere. </p>
+				<p>What Jess didn’t expect was to stumble onto one of the most beautiful, majestic hotels she had ever seen. Isolated from town, sitting alone on the top of the foothills with a picturesque view of snow capped mountains behind it, Jess knew she had to go explore it. </p>
+				<p>“It’s…it’s beautiful! How the hell did this survive all the attacks, and the looting?” a perplexed Jess thought out loud. </p>
+				<p>With a sense of unease, Jess sprinted across the open grounds, and carelessly rammed herself through the front doors. </p>
+				<p>What she was met with was the option of going downstairs to the lounge, or going upstairs to start exploring rooms looking for other survivors or for supplies she could scavenge. </p>
+				<p>Jess decided to go downstairs and check out the lounge first. </p>
+				<img src="https://i.ibb.co/CbvP0VG/image2-ch1.png" width="400" height="auto" border="0" class="left"></a>								
+				<p>“Ah look, a customer!” said a rather unkempt, rough looking barkeep named Lloyd.</p>
+				<p>“Uhh, yeah…hi.” Jess said with a confused look on her face. “I’d like a Fudweiser please, if you have one.” and with the excited look of a kid in a candy store, Lloyd happily served his first customer in over a year. </p>
+				<p>The two of them were like old friends. Chatting about the hotel grounds, the unknowns, the mystery, the danger, and after hours of talking, it felt as if there was a slight sense of normalcy between the two.</p>
+				<p>
+				<p>Then in an instant, Lloyd stopped talking, his face went blank and his demeanor took a turn. Jess, in a state of confusion, looked at Lloyd and asked “Hey buddy, are you okay? How about another Fudweiser?” “Hello, Lloyd?…Earth to Lloyd, are you there?”</p>
+				<img src="https://i.ibb.co/HBJtszK/image3-ch1.png" width="300" height="auto" class="right" border="0"></a>								
+				<p>“I'm surprised to see you here. The stairwell is over there to the left. Here, take this axe.” and that was it. He didn’t say another word to her. That stone cold look on his face said it all to Jess. </p>
+				<p>“What the hell is going on with Lloyd?” Jess thought to herself. </p>
+				<p>Jess then grabbed the axe from Lloyd, gave him one last glance to make sure this wasn’t a joke he was playing, and walked to the stairwell over to the left. </p>
+				<p>“I guess this is it. Let’s see what type of trouble we can get into…” and just like that, Jess took that first step upstairs, unknowing of what danger lies ahead of her.</p>
+			<p><a href="#" onclick="showPassage('Passage2')">Go Back</a> | <a href="#" onclick="showPassage('Passage4')">Continue</a></p>
+			</div>
+			<div class="passage" id="Passage4">
+				<h2>It's Beautiful</h2>
+				<p>Jess went up the stairs towards the front desk. On the wall opposite the elevator she read a plaque giving a short history of the hotel. </p>
+				<p><img src="https://i.ibb.co/92cyFzw/image4-ch2.png" width="450" height="auto" border="0" class="left" ></a>
+				<p>“The Overlook…”</p>
+				<p>A hum and squeaky cart-like sound started in the direction of the elevator.  That can’t be right, Jess, thought.  The elevator seen through the metal bar had just pinged and its doors opened to the lobby.</p>
+				<p>She had thought of going to the Penthouse and seeing the magnificent view from above when the elevator doors miraculously opened, as if reading her mind.  </p>
+				<p>”No you don’t, I don’t even know how you have electricity  working”, Jess spoke to the elevators.  </p>
+				<p>Part of her thought she was being paranoid; the other part didn’t relish the thought of being stuck between floors for eternity.</p>
+				<p>Jess instead found the main circular staircase and started walking up.  But by the second floor French doors she was already winded, drunk, or both. </p>
+				<img src="https://i.ibb.co/tx1MDRb/image7.png" width="300" height="auto" border="0" class="right"></a>								
+				<p>“I should have asked Lloyd if he had any peanuts or chips.” she thought, not sure when she last ate.</p>
+				<p>Barely finished, she thought she heard laughter coming from a couple girls down the left corridor.   Pulling the door open, she saw Skeetles on the rug…  Food! Jess bent and ate each colorful Skeetle that led her outside room 237.  Its door was open…</p>
+
+				<p><a href="#" onclick="showPassage('Passage3')">Go Back</a> | <a href="#" onclick="showPassage('Passage5')">Continue</a></p>
+			</div>
+			<div class="passage" id="Passage5">
+				<h2>Flowers in the Attic</h2>
+				<p>“Hello?” Jess called.</p>
+				<img src="https://i.ibb.co/RSqVDFL/image8.png" width="300" height="auto" class="left" border="0"></a>
+				<p>The two girls, who sounded young, giggled and whispered to each other. Through the open door, she could see the foot of the bed moving and shifting from their weight. She felt like a peeping tom, a voyeur. A peeping tom with an axe. </p>
+				<p>She had the urge to call out, “Get a room, you two!” but that seemed wholly unnecessary at this point, due to the apocalypse, and the fact that they did have a room. She turned on her heel to go. </p>
+				<p>“Come on in,” the voice called. </p>
+				<p>“Nope, I’m okay. Just going to head down to the bar again with that crazy dude.”</p>
+				<p>“Please come in. I have Skeeeeetles!” one of the girls said. And then the other retorted, “No, don’t give her any!”</p>
+				<p>Jess cautiously entered. There, on the bed, was a single girl. She spoke rapidly now, first to one aspect of herself, then the other.</p>
+				<p>“No, they’re mine!” she cried and pulled the Skeetles into her right hand.</p>
+				<p>“No! She’s a guest and we will give her some!” and the Skeetles went into the left hand.</p>
+				<img src="https://i.ibb.co/Dg3235P/image9.png" width="200" height="auto" class="right" border="0"></a>				
+				<p>“I’m okay, really. I don’t need any,” Jess said. “I’ll just leave you… two… one… you… alone.” And she turned to leave. </p>
+				<p>But as she began to shut the door the fight between the one human who thought she was two got more intense. By the time Jess went back in, the lamp was on the floor and the bed had been turned over and the girl was punching the right side of her face with her left hand with such force that the bruising was already rising to the surface. And then the right hand flew up and caught the next punch mid air and torqued the body over itself onto the small sofa and then the right hand went to work on the left side of the face. Jess stood amused, unsure of how to break up a fight of one, and whether or not she even wanted to. </p>
+				<p>The girl stood, and the right hand grabbed the mat of hair on the left side of the head, and then, to Jess’ amazement, she flung herself through the window.</p>
+				<img src="https://i.ibb.co/QkmGqQD/image10.png" width="400" height="auto" class="left" border="0"></a>				
+				<p>“Holy crap. That was intense,” Jess said. And then, behind her, she heard the door creak and then click shut and then a bolt slide into its casing. Locked in. From the outside. </p>
+				<p>A meek little voice came through the crack in the door. “Oh, I’m so sorry Jess. My daughter just hasn’t eaten in so long. I hope you understand. She’ll be back up in a minute.” </p>
+				<p>Jess peered through the broken window, and scaling the side of the structure was the girl, her tongue lolling from her gaping jaws.</p>
+				<p>Jess gripped the axe, and turned back toward the door. Fight the creature? Or break through the door and flee? She had been waiting for some adventure. Looks like she’d found it.</p>
+				<p><a href="#" onclick="showPassage('Passage4')">Go Back</a> | <a href="#" onclick="showPassage('Passage6')">Continue</a></p>
+			</div>
+			<div class="passage" id="Passage6">
+				<h2>Paranoia</h2>
+				<p>“Damn, not the predicament I thought I would wind up in.” Jess thought to herself. Moving over to the door to try and see if she could get it open. No luck. </p>
+				<p>“Hey!! Why’d you lock me in here, with.. them.. her.. your daughter?! </p>
+				<p>Think quick.. quick.. What should I do now? </p>
+				<img src="https://i.ibb.co/y8c1bdG/image11.png" width="400" height="auto" class="right" border="0"></a>
+				<p>She rushes over to the bed, quickly removing the sheet and planning on wrapping the girl up when she finally makes it back to the window. </p>
+				<p>A few seconds pass, Jess standing by the bed ready to pounce.. then a few more.. a minute goes by and she still hasn’t appeared. </p>
+				<p>Puzzled, Jess creeps over to the window and peers downward. </p>
+				<p>There’s no one. And it’s eerily quiet. </p>
+				<p>She looks around.. where the hell did the girl go? How could she move so quickly?! </p>
+				<p>Then a knock at the door..</p>
+				<p>“Everything alright there? Jess..? A familiar voice beckons.. it’s Lloyd. </p>
+				<p>Yes, yes, Lloyd can you open the door? She walks over, throws the sheet to the floor as the door opens and Lloyd appears, a puzzled look on his face. “I couldn’t help but overhear the ruckus, shall we head back to the bar?” </p>
+				<img src="https://i.ibb.co/487jnXv/image11a.png" width="300" height="auto" class="left" border="0"></a>				
+				<p>Relieved to be in relative safety, Jess follows Lloyd back to the bar.</p>
+				<p>“I’ll need another Fud Lloyd, and a shot of something strong. You’ll never believe what happened up there,” as she goes into the tale, recanting every detail in terrifying accuracy.  Lloyds reacted and joined in on the shot. </p>
+				<p>“You're right, surely you need a shot after that. Who was up there.. and why did they lock you in the room?” </p>
+				<p>Jess couldn’t believe how close she came to tragedy, and how careless she was to fall right into their trap.. those damn Skeetles..</p>
+				<p><a href="#" onclick="showPassage('Passage5')">Go Back</a> | <a href="#" onclick="showPassage('Passage7')">Continue</a></p>
+			</div>
+			<div class="passage" id="Passage7">
+				<h2>Checking Out</h2>
+				<p>As they walked along Jess looked at him. Short, swarthy, unkempt. His pants hung loose, his shoes were untied. </p>
+				<p>“Lloyd, your shoes are untied.”</p>
+				<img src="https://i.ibb.co/bFd2DyN/image12.png" width="300" height="auto" class="right" border="0"></a>
+				<p>Lloyd stopped and looked down, “yep,” he says and kept walking. </p>
+				<p>Once they got to the bar, he resumed shining and polishing. </p>
+				<p>Jess was almost positive it was the same one as before. </p>
+				<p>“So what’s your story, Lloyd?”
+				<br>“How did the hotel survive?”
+				<br>“How have you survived?”</p>
+				<p>Holding up the glass in the light to inspect work that no one was likely to ever appreciate, he says, ”Slow down. That's too far too fast.”</p>
+				<p>Turning toward me, his face had resumed that freaky blank stare.</p>
+				<p>Not a face muscle nor his eyes had moved. It was as if Lloyd was an intercom speaker on a desk somewhere and someone had just pushed the talk button. </p>
+				<p>For a minute the ground beneath her felt unsteady as if she could fall into the floor. </p>
+				<p>She knew that meant the entities were with her. </p>
+				<p>Exposure to nuclear radiation had killed most. A lucky few got powers. Her “power” was having an entity which sometimes spoke to her.  </p>
+				<p>It had been weeks since it had spoken.</p>				
+				<img src="https://i.ibb.co/F5P9HWK/image13.png" width="300" height="auto" class="left" border="0"></a>				
+				<p>But, by now she knew it always seemed to know more than she did. She was in danger.</p>
+				<p>Lloyd, still speaking, eyes unblinking in a bland monotone voice, “Why don’t you tell me what brings you here?”</p>
+				<p>Get out. </p>
+				<p>“Say, Lloyd, this place sure is nice, is there a bathroom I could use?”</p>
+				<p>Lloyd’s face shifted, a tiny bit. Then slowly, as if being lifted by a tiny crank being spun, his arm came up pointing behind her to the right corner,  “Over there.”</p>
+				<img src="https://i.ibb.co/sgvRbk9/image14.png" width="200" height="auto" class="right" border="0"></a>								
+				<p>“Ok, thanks won't be but a minute,” Jess replied.</p>
+				<p>Quickly she turned on her heel, happy to get some distance between her and whatever Lloyd was.  As she turned the corner, she looked back. Lloyd was still standing there, arm up, he or it hadn’t moved. </p>
+				<p>Racking her brain, she tried to think where she was, had she gone up any stairs? As she pushed through the door, she stopped.</p>
+				<p>The other one. </p>
+				<p>As quietly as she could, she went back out into the lobby. Trying not to look at herself in the mirror, but still catching a glimpse of her wiry 5’4” frame, she was trail ready. Short unkempt red hair, backpack worn to smudge-orange. Black leather trench, with a happy face smiling headshot pin. She stuck her tongue out, “Hot,” she said to no one in particular. </p>
+				<p>Boys room.  As slow as possible she pushed open the door just far enough to squeeze in. </p>
+				<p>Left, “Yes!” Ahh a window she raced to it, relieved. </p>
+				<p>No, “Where?” </p>
+				<p>But the voice said nothing. She looked around. It was a typical bathroom. Mirror, urinals, toilet. Frantic, she was about to leave frustrated when she saw it. </p>
+				<img src="https://i.ibb.co/y8D59XG/image15.png" width="300" height="auto" class="left" border="0"></a>												
+				<p>A rug. </p>
+				<p>A rug in a bathroom? Do what?</p>
+				<p>Quickly, she swept it away to reveal a door.</p>
+				<p>“Hey, Jess you alright in there?”, the animated normal sounding Lloyd was back. </p>
+				<p>Jess was now positive Lloyd was either on serious drugs, or more likely some kind of very advanced cybernetic organism.  Whatever, there was no more time to ask questions.</p>
+				<p>As slow and quiet as possible she reached for the handle and lifted. </p>
+				<p>Praying it wouldn’t creak, she was rewarded as it silently raised to reveal stairs going down into a pitch black hole in the ground. </p>
+				<p>“Hey, are you ok?” again Lloyd questioning, still the warm normal sounding one. </p>
+				<img src="https://i.ibb.co/BynBFNL/image16.png" width="300" height="auto" class="right" border="0"></a>																
+				<p>Down. Now.</p>
+				<p>Uh oh. </p>
+				<p>She set her bandana across her face just in case, tightened her back straps, and started down the stairs into the pitch black. </p>
+				<p>As she reached back to close the door behind her she heard the bathroom door open, followed by multiple sets of running feet.</p>
+				<p>Move.</p>
+				<p>And steeling herself, with her heart pounding in her ears, </p>
+				<p>Jess moved quickly down the stairs. </p>
+				<p><p>
+				<strong>To be continued...</strong>
+				<p><a href="#" onclick="showPassage('Passage6')">Go Back</a> | <a href="#" onclick="showPassage('Passage8')">Credits</a></p>
+			</div>
+			<div class="passage" id="Passage8">
+				<center>
+				<h2>A Story Collaboration by...</h2>
+				<h3>Writers</h3>
+				<br>@☠ DARK POPE ☠#6969 
+				<br>@Sissy#1191 
+				<br>@cairn_and_web#1201  
+				<br>@Superluckybox#5935  
+				<br>@nerdout101#0621 
+				<br>
+				<h3>Art Director</h3>
+				<br>@PanddingtonRed 
+				<br>
+				<h3>Producer</h3>
+				<br>@cryp2nz_lead
+				<p><a href="#" onclick="showPassage('Passage7')">Go Back</a></p>
+			</div>
+		</div>
+	</body>
+</html>
